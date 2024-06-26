@@ -1,0 +1,96 @@
+$primary-light: #838383;
+$primary-medium: #464646;
+$primary-dark: #282828;
+$bg-primary: #FFFFFF;
+$bg-secondary: #F8F8FF;
+$accent-light: #7178C1;
+$accent-dark: #05028F;
+
+@font-face {
+  font-family: 'Inter';
+  src: url('@/assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Saira';
+  src: url('@/assets/fonts/Saira-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-weight: 400;
+  @media (min-width: 1024px) {
+    font-size: 18px;
+  }
+}
+
+body {
+  color: $primary-medium;
+  background-color: $bg-primary;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: $accent-dark;
+  @media (min-width: 1024px) {
+    font-size: 64px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: $primary-dark;
+  @media (min-width: 1024px) {
+    font-size: 32px;
+  }
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: $primary-dark;
+  @media (min-width: 1024px) {
+    font-size: 24px;
+  }
+}
+
+p {
+  line-height: 25.6px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px;
+    @media (min-width: 1024px) {
+      padding: 0 72px;
+    }
+}

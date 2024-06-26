@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3",
+    "node-sass": "^9.0.0",
+    "nuxt": "^3.12.2",
+    "sass-loader": "^14.2.1",
+    "usebootstrap": "^3.5.7",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "nuxt-bootstrap-icons": "^2.0.0"
+  }
+}
